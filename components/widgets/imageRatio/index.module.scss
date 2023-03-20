@@ -1,0 +1,7 @@
+.imageCover {
+  @apply relative aspect-square overflow-hidden;
+
+  .img {
+    @apply object-cover;
+  }
+}

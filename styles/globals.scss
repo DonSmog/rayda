@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap");
+
+*:root {
+  --font-family: "Montserrat", sans-serif;
+  --background: #fbfbfb;
+  --main-color: #5b3a89;
+  --border-color: #c12f43;
+  --text-color: #0b0b0b;
+  --gray-color: #808080;
+  --dark-gray-color: #404040;
+  --border: #dfdfdf;
+  --gray-border: #bfbfbf;
+}
+
+html {
+  @apply scroll-smooth m-0 p-0 h-0 overflow-hidden max-h-[100%];
+}
+
+body {
+  @apply bg-[#efefef];
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: var(--border);
+    border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: var(--button);
+  }
+}
+
+* {
+  @apply p-0 m-0 font-mono box-border;
+  p {
+    @apply text-[#0B0B0B] text-sm;
+  }
+}
+
+a {
+  color: inherit;
+  @apply no-underline;
+}
