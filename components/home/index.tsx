@@ -1,4 +1,5 @@
 import { TopNav } from "@components/nav";
+import { TopDisplay } from "@components/top-display";
 
 import styles from "./index.module.scss";
 
@@ -8,7 +9,9 @@ export const Home = () => {
       <TopNav />
 
       <div className={styles.content}>
-        <div className={styles.card}></div>
+        <div className={styles.card}>
+          <TopDisplay />
+        </div>
         <div className={styles.card}></div>
       </div>
     </div>

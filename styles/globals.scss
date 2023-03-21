@@ -18,7 +18,7 @@
 }
 
 html {
-  @apply scroll-smooth m-0 p-0 h-0 overflow-hidden max-h-[100%];
+  @apply scroll-smooth m-0 p-0 h-0 overflow-y-auto max-h-[100%];
 }
 
 body {
