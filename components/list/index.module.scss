@@ -17,7 +17,7 @@
     @apply grid grid-cols-4 gap-6;
 
     .item {
-      @apply flex flex-col gap-4 border rounded-[12px] border-[#D0D5DD] p-3 bg-[#fff];
+      @apply flex flex-col gap-2 border rounded-[12px] border-[#D0D5DD] p-3 bg-[#fff];
 
       .img {
         @apply flex justify-center items-center h-[132px] w-full rounded-[12px];
@@ -48,7 +48,7 @@
       }
 
       .item_button {
-        @apply border-t-2 pt-2 border-[#eaecf0] flex justify-center items-center;
+        @apply border-t-2 pt-4 border-[#eaecf0] flex justify-center items-center;
 
         button {
           @apply flex items-center justify-center text-[#fff] border rounded-[8px] font-bold text-[14px] h-[40px] w-full bg-[#004CCC];
