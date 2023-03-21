@@ -19,12 +19,6 @@
       "@components/*": ["components/*"],
       "@widgets/*": ["components/widgets/*"],
       "@icons/*": ["components/icons/*"],
-      "@inputs/*": ["components/inputs/*"],
-      "@modals/*": ["components/modals/*"],
-      "@layouts/*": ["layouts/*"],
-      "@utils/*": ["utils/*"],
-      "@state/*": ["state/*"],
-      "@hooks/*": ["hooks/*"],
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],

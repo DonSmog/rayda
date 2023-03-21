@@ -1,3 +1,4 @@
+import { ListItems } from "@components/list";
 import { TopNav } from "@components/nav";
 import { TopDisplay } from "@components/top-display";
 
@@ -12,7 +13,9 @@ export const Home = () => {
         <div className={styles.card}>
           <TopDisplay />
         </div>
-        <div className={styles.card}></div>
+        <div className={styles.card}>
+          <ListItems />
+        </div>
       </div>
     </div>
   );

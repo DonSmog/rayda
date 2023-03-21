@@ -1,0 +1,59 @@
+.list {
+  @apply flex flex-col gap-4 w-full;
+
+  .list_top {
+    @apply flex justify-between items-center pb-4 border-b-2 border-[#eaecf0];
+
+    h1 {
+      @apply text-[18px] font-bold text-[#101828];
+    }
+
+    button {
+      @apply flex items-center justify-center gap-2 text-[#344054] border rounded-[8px] font-bold text-[14px] h-[36px] w-[114px];
+    }
+  }
+
+  .list_items {
+    @apply grid grid-cols-4 gap-6;
+
+    .item {
+      @apply flex flex-col gap-4 border rounded-[12px] border-[#D0D5DD] p-3 bg-[#fff];
+
+      .img {
+        @apply flex justify-center items-center h-[132px] w-full rounded-[12px];
+      }
+
+      .name {
+        @apply flex gap-2 items-center;
+
+        p {
+          @apply text-[14px] font-bold text-[#344054];
+
+          span {
+            @apply text-[14px] font-normal text-[#98A2B3];
+          }
+        }
+      }
+
+      h2 {
+        @apply text-[14px] font-bold text-[#101828] leading-[20px];
+      }
+
+      p {
+        @apply text-[14px] font-normal text-[#344054];
+
+        span {
+          @apply text-[14px] font-[700] text-[#344054];
+        }
+      }
+
+      .item_button {
+        @apply border-t-2 pt-2 border-[#eaecf0] flex justify-center items-center;
+
+        button {
+          @apply flex items-center justify-center text-[#fff] border rounded-[8px] font-bold text-[14px] h-[40px] w-full bg-[#004CCC];
+        }
+      }
+    }
+  }
+}
