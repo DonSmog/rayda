@@ -19,6 +19,7 @@
       "@components/*": ["components/*"],
       "@widgets/*": ["components/widgets/*"],
       "@icons/*": ["components/icons/*"],
+      "@utils/*": ["utils/*"],
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
