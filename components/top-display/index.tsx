@@ -24,12 +24,12 @@ export const TopDisplay = () => {
           <div className={styles.content_texts}>
             <h1>Starts in: 3 days : 2 hours : 24 minutes </h1>
             <div className={styles.content_texts_item}>
-              <button>
+              <button className={styles.content_texts_button}>
                 <span></span>
                 Not Live
               </button>
 
-              <p>Layers Auction </p>
+              <p>Layers Auction</p>
             </div>
           </div>
 

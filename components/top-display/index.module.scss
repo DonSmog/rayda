@@ -25,8 +25,8 @@
         .content_texts_item {
           @apply flex gap-2 items-center;
 
-          button {
-            @apply flex items-center justify-center gap-2 h-[28px] w-[88px] rounded-[16px] bg-[#FFFAEB] text-[14px] font-[500] text-[#B54708];
+          .content_texts_button {
+            @apply flex items-center justify-center gap-2 h-[28px] w-[88px] rounded-[16px] bg-[#FFFAEB] text-sm font-[500] text-[#B54708];
 
             span {
               @apply w-2 h-2 bg-[#F79009] rounded-full;
@@ -34,16 +34,16 @@
           }
 
           p {
-            @apply text-[#475467] text-sm;
+            @apply text-[#475467] text-[16px];
           }
         }
       }
 
       .content_button {
-        @apply flex items-center gap-3 px-4 py-2 border border-2 border-[#D0D5DD] rounded-[12px] bg-[#fff] text-sm font-[600] text-[#344054];
+        @apply flex items-center  justify-center gap-2 h-[36px] w-[143px] border border-2 border-[#D0D5DD] rounded-[12px] bg-[#fff] text-sm font-[600] text-[#344054];
 
         .content_button_item {
-          @apply flex gap-2 items-center;
+          @apply flex justify-center items-center;
         }
       }
     }
