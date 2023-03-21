@@ -1,18 +1,20 @@
 @tailwind base;
 @tailwind utilities;
 @tailwind components;
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap");
 
 *:root {
-  --font-family: "Montserrat", sans-serif;
-  --background: #fbfbfb;
-  --main-color: #5b3a89;
-  --border-color: #c12f43;
+  --font-family: "IBM Plex Sans", sans-serif;
+  --main-color: #101828;
   --text-color: #0b0b0b;
-  --gray-color: #808080;
-  --dark-gray-color: #404040;
+  --gray-color: #344054;
   --border: #dfdfdf;
   --gray-border: #bfbfbf;
+  --button: #004ccc;
+  --bg: #f2f4f7;
+  --white: #ffffff;
+  --light-gray: #475467;
+  --border: #eaecf0;
 }
 
 html {
@@ -20,7 +22,7 @@ html {
 }
 
 body {
-  @apply bg-[#efefef];
+  @apply bg-[#FCFCFD];
 
   ::-webkit-scrollbar {
     width: 10px;
@@ -33,15 +35,13 @@ body {
 
   ::-webkit-scrollbar-thumb {
     border-radius: 10px;
-    background: var(--button);
+    background: var(--dark-gray-color);
   }
 }
 
 * {
-  @apply p-0 m-0 font-mono box-border;
-  p {
-    @apply text-[#0B0B0B] text-sm;
-  }
+  @apply p-0 m-0 box-border;
+  font-family: var(--font-family);
 }
 
 a {

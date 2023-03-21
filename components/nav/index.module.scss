@@ -1,0 +1,24 @@
+.topnav {
+  @apply flex items-center justify-between pb-3 border-b-2 border-[#eaecf0];
+
+  .topnav_text {
+    @apply flex flex-col gap-2;
+
+    h1 {
+      @apply text-2xl font-bold m-0 p-0;
+    }
+
+    p {
+      @apply m-0 p-0;
+      color: var(--light-gray);
+    }
+  }
+
+  .bell {
+    @apply flex relative;
+
+    span {
+      @apply absolute bottom-0 right-0 w-3 p-2 h-3 bg-red-500 rounded-full text-xs text-white flex items-center justify-center;
+    }
+  }
+}
